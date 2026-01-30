@@ -1,8 +1,8 @@
 ---
 title: "블로그를 시작하며"
 description: "나만의 웹 페이지를 만들며 들었던 생각들"
-pubDatetime: 2026-01-30T23:00:00+09:00
-modDatetime: 2026-01-30T23:00:00+09:00
+pubDatetime: 2026-01-30T14:00:00+09:00
+modDatetime: 2026-01-30T14:58:00+09:00
 tags:
   - intro
 featured: true
