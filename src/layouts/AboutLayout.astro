@@ -34,9 +34,13 @@ const { frontmatter } = Astro.props;
   .about-table :global(td) {
     border: none;
     border-bottom: 1px solid var(--border);
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.5rem 0.75rem 0;
     vertical-align: top;
     word-break: keep-all;
+  }
+  .about-table :global(th:last-child),
+  .about-table :global(td:last-child) {
+    padding-right: 0;
   }
   .about-table :global(thead th) {
     border-bottom: 2px solid var(--border);
