@@ -12,13 +12,6 @@ https://jaymong.me
 - [AstroPaper](https://github.com/satnaing/astro-paper) - 블로그 테마
 - [TailwindCSS](https://tailwindcss.com/) - 스타일링
 
-## 로컬 실행
-
-```bash
-npm install
-npm run dev
-```
-
 ## 라이선스
 
 MIT License
