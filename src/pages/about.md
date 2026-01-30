@@ -71,6 +71,3 @@ title: "About"
 | [내부 고객사 운영 시스템 구축](https://github.com/HelloJamong/customer-vault) | 기존 파일과 문서 단위로 운영되던 고객 관리 시스템을 전산화를 통해 효율적인 업무 환경 개선 진행 | 시스템 구축 |
 | 소스 관리 통합 환경 구성 | 폐쇄망 내 Gitea 환경을 구성하여 릴리즈 노트와 소스 관리 등 효율적인 협업 시스템 구성 | 시스템 구축 |
 
----
-
-이 블로그는 [AstroPaper](https://github.com/satnaing/astro-paper) 테마를 사용하여 제작되었습니다.

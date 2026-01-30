@@ -27,17 +27,68 @@ const { frontmatter } = Astro.props;
   .about-table :global(table) {
     border-collapse: collapse;
     border: none;
+    width: 100%;
+    table-layout: fixed;
   }
   .about-table :global(th),
   .about-table :global(td) {
     border: none;
     border-bottom: 1px solid var(--border);
     padding: 0.75rem 1rem;
+    vertical-align: top;
+    word-break: keep-all;
   }
   .about-table :global(thead th) {
     border-bottom: 2px solid var(--border);
+    white-space: nowrap;
   }
   .about-table :global(tr:last-child td) {
     border-bottom: none;
+  }
+  /* 참여 프로젝트 표: 기간 | 고객사 | 프로젝트 | 구분 */
+  .about-table :global(table:has(th:nth-child(4))) :global(th:nth-child(1)),
+  .about-table :global(table:has(th:nth-child(4))) :global(td:nth-child(1)) {
+    width: 20%;
+    white-space: nowrap;
+  }
+  .about-table :global(table:has(th:nth-child(4))) :global(th:nth-child(2)),
+  .about-table :global(table:has(th:nth-child(4))) :global(td:nth-child(2)) {
+    width: 18%;
+  }
+  .about-table :global(table:has(th:nth-child(4))) :global(th:nth-child(3)),
+  .about-table :global(table:has(th:nth-child(4))) :global(td:nth-child(3)) {
+    width: 47%;
+  }
+  .about-table :global(table:has(th:nth-child(4))) :global(th:nth-child(4)),
+  .about-table :global(table:has(th:nth-child(4))) :global(td:nth-child(4)) {
+    width: 15%;
+    white-space: nowrap;
+  }
+  /* 사내 프로젝트 표: 프로젝트 | 설명 | 구분 */
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(th:nth-child(1)),
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(td:nth-child(1)) {
+    width: 25%;
+  }
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(th:nth-child(2)),
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(td:nth-child(2)) {
+    width: 55%;
+  }
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(th:nth-child(3)),
+  .about-table :global(table:has(th:nth-child(3)):not(:has(th:nth-child(4)))) :global(td:nth-child(3)) {
+    width: 20%;
+    white-space: nowrap;
+  }
+  /* 모바일 대응 */
+  @media (max-width: 768px) {
+    .about-table :global(table) {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .about-table :global(th),
+    .about-table :global(td) {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+    }
   }
 </style>
