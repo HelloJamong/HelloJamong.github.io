@@ -67,7 +67,7 @@ title: "About"
 | [VDI 최적화 스크립트](https://github.com/HelloJamong/QuickVM) | 성능 향상과 용량 절감을 위한 최적화 설정을 일괄 처리 |
 | Proxmox VE 구축 | 개발 및 기술지원용 서버 자원 부담 감소를 위해 오픈소스 VDI 환경 직접 구축 |
 | JetBrains YouTrack 도입 | JIRA 구축형 라이선스 단종 대응, 기존 데이터 유지하며 새로운 이슈 트래킹 환경 구축 |
-| [제품 마이그레이션 스크립트](https://github.com/HelloJamong/Migris) | 메이저 업그레이드 시 버전별 환경 차이 분석 및 자동 설치/설정 스크립트 제작 |
-| [내부 고객사 운영 시스템 구축](https://github.com/HelloJamong/customer-vault) | 기존 파일과 문서 단위로 운영되던 고객 관리 시스템을 전산화를 통해 효율적인 업무 환경 개선 진행 |
+| [제품 마이그레이션 스크립트](https://github.com/HelloJamong/Migris) | 소스 최신화 시 변경된 DB를 자동으로 반영하는 스크립트 구성 |
+| [고객사 관리 시스템 구축](https://github.com/HelloJamong/customer-vault) | 기존 파일과 문서 단위로 운영되던 고객 관리 시스템을 전산화를 통해 효율적인 업무 환경 개선 진행 |
 | 소스 관리 통합 환경 구성 | 폐쇄망 내 Gitea 환경을 구성하여 릴리즈 노트와 소스 관리 등 효율적인 협업 시스템 구성 |
 
