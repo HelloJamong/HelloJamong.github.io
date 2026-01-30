@@ -15,10 +15,29 @@ const { frontmatter } = Astro.props;
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">
-    <section id="about" class="app-prose mb-28 max-w-app prose-img:border-0">
+    <section id="about" class="app-prose mb-28 max-w-app prose-img:border-0 about-table">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
       <slot />
     </section>
   </main>
   <Footer />
 </Layout>
+
+<style>
+  .about-table :global(table) {
+    border-collapse: collapse;
+    border: none;
+  }
+  .about-table :global(th),
+  .about-table :global(td) {
+    border: none;
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 1rem;
+  }
+  .about-table :global(thead th) {
+    border-bottom: 2px solid var(--border);
+  }
+  .about-table :global(tr:last-child td) {
+    border-bottom: none;
+  }
+</style>

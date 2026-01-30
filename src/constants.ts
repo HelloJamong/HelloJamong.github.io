@@ -20,8 +20,8 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "Signal",
-    href: "https://signal.me/#eu/LS8LCDMm5R3ffq3Q_Mp1z3qZiGNZ9EZFGJQGT0GYrWbmcKhU--pKAZ0vUBgmzrxP",
-    linkTitle: `Contact ${SITE.author} on Signal`,
+    href: "https://signal.org",
+    linkTitle: `Signal: igor.670`,
     icon: IconSignal,
   },
   {
