@@ -3,35 +3,26 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## Jamong
 
-![Astro Paper](public/astropaper-og.jpg)
+새로운 것을 배우고, 만들고, 운영하는 과정에 관심이 많은 **인프라·운영 중심 엔지니어**입니다.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+완성도보다는 직접 구성하고 운영하며 기록하는 과정에 의미를 두고 있으며, 이 공간을 학습과 경험 정리의 장으로 활용하고 있습니다.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## 관심 분야
 
-## Features
+- 망분리 환경 구성 및 운영
+- Linux 기반 서버 인프라 관리
+- 데이터베이스 및 컨테이너 환경 구축
+- 자동화와 운영 효율화
+- AI 도구를 활용한 개발 지원
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## 기술 스택
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+- **OS/인프라:** Rocky Linux, Docker, Docker Compose, Bash
+- **데이터베이스:** MySQL, MariaDB
+- **AI 도구:** Claude Code, OpenAI Codex, Gemini CLI
 
-and so much more.
+---
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+이 블로그는 [AstroPaper](https://github.com/satnaing/astro-paper) 테마를 사용하여 제작되었습니다.
