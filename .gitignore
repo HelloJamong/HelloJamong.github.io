@@ -28,3 +28,6 @@ public/pagefind
 
 # blog template
 src/data/blog/_template.md
+
+# oh-my-claude config
+.omc/
