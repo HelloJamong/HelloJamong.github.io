@@ -31,3 +31,5 @@ src/data/blog/_template.md
 
 # oh-my-claude config
 .omc/
+# oh-my-codex config
+.omx/
