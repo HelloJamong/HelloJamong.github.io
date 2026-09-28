@@ -21,7 +21,7 @@ title: "About"
 
 - **OS/인프라:** Rocky Linux, RHEL, Docker, Docker Compose, Bash
 - **데이터베이스:** MySQL, MariaDB
-- **AI 도구:** Claude Code, OpenAI Codex, Gemini CLI
+- **AI 도구:** Claude Code, OpenAI Codex
 
 ## 학력
 
@@ -40,6 +40,7 @@ title: "About"
 
 | 기간 | 고객사 | 프로젝트 |
 |------|--------|----------|
+| 2026.03 - 2026.08 | NHN KCP | 망 분리 시스템 구축 사업 |
 | 2025.10 - 2025.12 | SKI E&S | 망 분리 시스템 이중화 및 고도화 사업 |
 | 2025.10 - 현재 | 아성다이소 | 망 분리 시스템 유지보수 |
 | 2025.03 - 현재 | 국가기록원 | 망 분리 시스템 유지보수 |
